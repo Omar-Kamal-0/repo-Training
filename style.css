@@ -116,7 +116,8 @@ main{
     font-family: "Pacifico","Pacifico";
 }
 .h2{
-    font-size: 55px;
+    text-align: center;
+    font-size: 200%;
     font-family: "Arvo", serif;
 
 }
@@ -172,7 +173,6 @@ main{
     font-family: "Pacifico","Pacifico";
 }
 .sect4{
-    background: url("img16.jpg") no-repeat;
     margin-bottom: 10%;
     margin-top: 7%;
     background-size: contain;
