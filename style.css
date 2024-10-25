@@ -1,0 +1,208 @@
+main{
+    transition: all 0.3s, color 0.3s;
+    margin: 2% 1.5% 0% 1.5% ;
+}
+.lightmode{
+    background-color: white;
+    color: black;
+}
+.darkmode{
+    background-color:black;
+    color: rgb(255, 255, 255);
+}
+.div{
+    height: 65%;
+    display: flex;
+    align-items: center;
+    left: 0%;
+    right: 0%;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+.navbar{
+    background-color: rgba(255, 255, 255, 0), var(--bs-bg-opacity) !important;
+}
+.navbar-brand{
+    color: white;
+    font-family: "Pacifico","Pacifico";
+}
+.navbar-nav .nav-item .active{
+    color: rgb(213, 151, 255);
+}
+.nav-link{
+    color: white;
+    font-size: 20px;
+    font-family: "Pacifico","Pacifico";
+}
+.nav-link:hover{
+    color: rgb(213, 151, 255);
+}
+.btn1{
+    font-size: 19px;
+    font-family: "Pacifico","Pacifico";
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+.btn1:hover{
+    color: rgb(213, 151, 255);
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+}
+.div1{
+    margin-bottom: 20%;
+}
+.h5{
+    font-size: 60px;
+    font-family: "Pacifico","Pacifico";
+}
+.h1{
+    font-size: 100px;
+    font-family: "Arvo", serif;
+}
+.bttn{
+    transition: all .4s ease;
+    padding: 10px 25px;
+    background-color: white;
+    border: 1px solid white;
+}
+.bttn:hover{
+    transition: all .4s ease;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+}
+.bttn1{
+    transition: all .4s ease;
+    padding: 10px 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    color: white;
+}
+.bttn1:hover{
+    transition: all .4s ease;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    color: rgb(0, 0, 0);
+}
+.divin{
+    text-align: center;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0% 10% 0%;
+}
+.img1{
+    background-color: white;
+    padding: 5px;
+}
+.h3{
+    font-size: 22px;
+}
+.sect1{
+    background-color:rgba(253, 214, 200, 0.95);
+}
+.divarticle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.h4{
+    font-size: 40px;
+    font-family: "Pacifico","Pacifico";
+}
+.h2{
+    font-size: 55px;
+    font-family: "Arvo", serif;
+
+}
+.divsect1{
+    text-align: center;
+    height: 90vh;
+}
+.h6{
+    font-size: 25px;
+}
+.sect2{
+    background: url("img12.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divarticle2{
+    margin: 5% 0% 5% 0% ;
+    text-align: center;
+    color: white;
+}
+.sect3{
+    margin: 7% 0% 7% 0%;
+}
+.divarticle3{
+    background: url("img13.png") no-repeat;
+    height: 100%;
+}
+.bttn3{
+    padding:13px 30px ;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    transition: all .4s ease;
+}
+.bttn3:hover{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    transition: all .4s ease;
+}
+.divimg{
+    display: flex;
+    align-items: center;
+    height: 65%;
+}
+.pimg{
+    font-size: 30px;
+    font-family: "Arvo", serif;
+
+}
+.h5img{
+    font-size: 60px;
+    font-family: "Pacifico","Pacifico";
+}
+.sect4{
+    background: url("img16.jpg") no-repeat;
+    margin-bottom: 10%;
+    margin-top: 7%;
+    background-size: contain;
+}
+.divimg2{
+    text-align: center;
+    color: rgb(120, 120, 120);
+}
+.fa-brands{
+    margin-bottom: 13%;
+}
+.sect6{
+    background-color:rgba(253, 214, 200, 0.95);
+    text-align: center;
+}
+.divarticle5{
+    margin: 5% 0% 5% 0% ;
+}
+.search{
+    padding: 10px 24% 10px 10px ;
+    border: 1px solid white;
+}
+.submit{
+    padding: 10px 3% 10px 3% ;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid black;
+}
+footer{
+    background-color: black;
+    padding: 5% 0% 5% 0%;
+    color: rgb(150, 150, 150);
+}
